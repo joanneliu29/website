@@ -1,0 +1,75 @@
+/* border box fix */
+html {
+    box-sizing:border-box;
+}
+*,*:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+#name {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 140%;
+    margin-top: 70px;
+    color: rgb(94, 94, 94);
+}
+ul {
+    font-size: 70%;
+    text-align: right;
+    padding-right: 200px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    margin-top: -30px;
+}
+li {
+    display: inline;
+    padding: 10px;
+}
+li a {
+    color: rgb(94, 94, 94);
+    text-decoration: none;
+}
+li a:hover {
+    color: black;
+}
+.active {
+    color: black;
+    text-decoration: underline;
+}
+.column {
+    float:left;
+    width:50%;
+    padding-top: 280px;
+    padding-bottom: 280px;
+    margin: none;
+    border: none;
+    font-size: 25px;
+    transition-duration: 0.4s;
+}
+#art {
+    background-image: url("image/mundaneTasks2.jpg");
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    color:black;
+    
+}
+#art:hover {
+    background-image: none;
+    background-color: #668586;
+    opacity: 1.0;
+    color:white
+}
+#des {
+    background-image: url("image/LIU_005_Phone-H2.jpg");
+    opacity: 0.7;
+    background-repeat: no-repeat;
+}
+#des:hover {
+    background-image: none;
+    background-color: #BB8588;
+    opacity: 1.0;
+    color:white
+}
